@@ -1,0 +1,21 @@
+{
+  "name": "threeJsDemo",
+  "version": "1.0.0",
+  "description": "a threeJs demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com.cnpmjs.org/ryta333/threeDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.2",
+    "rollup": "^2.63.0",
+    "three": "^0.136.0"
+  }
+}
