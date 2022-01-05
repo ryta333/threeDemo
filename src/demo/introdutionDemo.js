@@ -50,5 +50,10 @@ renderer.setSize(width, height); // 渲染区域尺寸
 renderer.setClearColor(0xb9d3ff, 1) // 背景色
 document.body.appendChild(renderer.domElement); // 插入canvas对象
 
-renderer.render(scene, camera);
+function render() {
+    renderer.render(scene,camera);//执行渲染操作
+    mesh.rotateY(0.01);//每次绕y轴旋转0.01弧度
+    requestAnimationFrame(render);
+}
 
+render();
